@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 
 export default function Home(props) {
 
-  const fetchInfo = () => {
+  const fetchInformation = () => {
 
   };
 
@@ -12,7 +12,7 @@ export default function Home(props) {
     <div className="page-style">
       <input
         type="text"
-        onChange={fetchInfo()}
+        onChange={fetchInformation()}
         placeholder={"Enter Some text"}
         style={{height:"40px", width:"40%"}}
       />
