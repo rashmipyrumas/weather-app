@@ -1,88 +1,10 @@
-.outer-layer {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  height: 400px;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 0 10px #1d428a;
-  border-radius: 10px;
+.page-style {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
 }
 
-.first-layer {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  width: 100%;
+.footer-style {
+    margin-top: 2%;
 }
-
-.place-style {
-  font-size: 25px;
-  font-weight: 600;
-  margin: 0;
-  font-family: metropolislight;
-}
-
-.cloud-style {
-  font-size: 36px;
-}
-
-.options-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.options-value {
-  display: inline;
-  padding: 15px;
-  border: 1px dashed black;
-  background-color: #1d428a;
-  color: white;
-  font-family: metropolislight;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.options-value:hover{
-  background-color: white;
-  color: black;
-}
-
-.current-weather-style {
-  margin: 0;
-  font-family: metropolislight;
-}
-
-.current-temp-style {
-  font-size: 40px;
-}
-
-.high-low-temp {
-  font-size: 20px;
-  padding: 0px 18px 0px 0px
-}
-
-.unit-style {
-  font-size: 18px;
-  margin: 0px 496px 0px 0px
-}
-
-.toggle-style {
-  padding: 60px 0px 0px 8px;
-}
-
-.toggle-data-style {
-  padding: 35px 0px 0px 38px;
-}
-
-.daily-style {
-  padding: 130px;
-}
-
-
-
